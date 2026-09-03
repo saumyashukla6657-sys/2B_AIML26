@@ -18,6 +18,7 @@ class Product{
         console.log("Quantity:", this.quantity);
         console.log("Total Price:", this.calculateTotalPrice());
     }
+    
 }
 
 let p1 = new Product(101, "Laptop", 50000, 2);  
