@@ -1,15 +1,12 @@
-class Student {
-    display(roll, name, year) {
-        this.rollNumber = roll;
-        this.name = name;
-        this.year = year;
-
-        console.log("Roll Number:", this.rollNumber);
-        console.log("Name:", this.name);
-        console.log("Year:", this.year);
+class hello{
+    constructor(){
+       console.log("hello"); 
     }
 }
-
-let s = new Student();
-
-s.display(101, "Saumya", 2);
+class hi extends hello{
+    constructor(){
+        super();
+        console.log("hi");
+    }
+}
+let h1 = new hi();
