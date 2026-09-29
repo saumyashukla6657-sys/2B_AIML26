@@ -11,4 +11,4 @@ eventEmitter.on('exit', (name) => {
 });
 
 eventEmitter.emit('greet', 'Alice');
-eventEmitter.emit('exit', 'Alice');
+eventEmitter.emit('exit', 'saumya');
