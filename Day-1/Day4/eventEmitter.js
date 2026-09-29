@@ -10,5 +10,5 @@ eventEmitter.on('exit', (name) => {
     console.log(`Goodbye, ${name}! Exiting the program.`);
 });
 
-eventEmitter.emit('greet', 'Alice');
-eventEmitter.emit('exit', 'saumya');
+eventEmitter.emit('greet', 'Saumya');
+eventEmitter.emit('exit', 'Saumya');
